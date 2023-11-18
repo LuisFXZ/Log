@@ -5,19 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        
-        <View
+
+        <ImageView
             android:layout_width="180dp"
-            android:layout_height="157dp"
+            android:layout_height="139dp"
             android:layout_gravity="center"
-            android:layout_marginTop="100dp"
-            android:background="@drawable/log"/>
+            android:background="@drawable/log" />
 
     </LinearLayout>
 
@@ -33,10 +32,50 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:layout_marginTop="47dp"
-            android:text="Iniciar Sesión"
+            android:layout_marginTop="37dp"
+            android:text="Registrate"
             android:gravity="center"
             android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            android:text="Ingrese su nombre:"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColorHint="@color/secondary"
+            android:textSize="12sp"
+            android:padding="15dp"
+            android:background="@drawable/edittext"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            android:text="Ingrese su Apellido:"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            android:hint="Apellido"
+            android:inputType="text"
+            android:textColorHint="@color/secondary"
+            android:textSize="12sp"
+            android:padding="15dp"
+            android:background="@drawable/edittext"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,10 +91,10 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="16dp"
             android:hint="Email"
-            android:textSize="12sp"
-            android:textColorHint="@color/secondary"
             android:inputType="textEmailAddress"
-            android:padding="15sp"
+            android:textColorHint="@color/secondary"
+            android:textSize="12sp"
+            android:padding="15dp"
             android:background="@drawable/edittext"/>
         <TextView
             android:layout_width="match_parent"
@@ -72,10 +111,10 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="16dp"
             android:hint="Contraseña"
-            android:textSize="12sp"
-            android:textColorHint="@color/secondary"
             android:inputType="textPassword"
-            android:padding="15sp"
+            android:textColorHint="@color/secondary"
+            android:textSize="12sp"
+            android:padding="15dp"
             android:background="@drawable/edittext"/>
         <TextView
             android:layout_width="match_parent"
@@ -83,15 +122,15 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginTop="16dp"
-            android:text="Olvidaste tu contraseña?"
+            android:text="Terminos"
             android:textColor="@color/white"/>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginTop="16dp"
-            android:text="Iniciar Sesión"
+            android:text="Registrate"
             android:backgroundTint="@color/primary"/>
         <TextView
             android:layout_width="match_parent"
@@ -99,21 +138,20 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginTop="16dp"
-            android:text="No tienes cuenta?"
-            android:textColor="@color/primary"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="Tienes cuenta?"
+            android:textColor="@color/primary"/>
         <TextView
-            android:id="@+id/go_to_register"
+            android:id="@+id/go_to_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="47dp"
             android:layout_gravity="center"
-            android:text="REGISTRATE"
-            android:textColor="@color/white"
-            android:gravity="center"/>
+            android:text="INICIA SESIÓN"
+            android:layout_marginBottom="47dp"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 
